@@ -1,0 +1,87 @@
+*{
+    overflow-x: hidden;
+}
+.firstnav{
+    background-color: rgb(104, 201, 201);
+    
+}
+.hero{
+    height: fit-content;
+    width: 100%;
+}
+nav img {
+    height: 30px;
+    width: 120px;
+}
+.blog{
+    border-color: rgb(104, 201, 201) !important ;
+}
+
+
+.card img{
+    height: 40px !important;
+    width: 40px !important;
+    
+}
+.appointment, .questions{
+    background-color: rgb(234, 241, 242);
+
+}
+.line{
+    height: 3px;
+    width: 50px;
+    background-color: rgb(104, 201, 201);
+    border-radius: 5px;
+}
+.btn{
+    background-color: rgb(104, 201, 201);
+}
+.scrollopsy{
+    width: 50vw;
+}
+.map{
+    width: 100%;
+    overflow: hidden;
+}
+.circle{
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    border: 2px !important;
+    border-style: dotted !important;
+    border-color:rgb(104, 201, 201) !important;
+}
+.circle img{
+    height: 30px;
+    width: 30px;
+}
+a{
+    color: rgb(104, 201, 201);
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit;
+  }
+
+.accordion-button:focus{
+    box-shadow: inherit;
+}
+.firstnav a{
+    color: white;
+    text-decoration: none;
+}
+.firstnav{
+    font-size: 10px;
+}
+h2,h5{
+    overflow: hidden;
+}
+.footer{
+    background-color: rgba(239, 244, 245, 0.722);
+
+}
+@media  (max-width:600px) {
+    .firstnav { 
+        display:none !important ;
+    }
+}
